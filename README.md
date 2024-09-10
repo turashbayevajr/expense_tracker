@@ -8,6 +8,9 @@ This is a simple web-based Expense Tracker application that allows users to inpu
 - **Local Storage**: Expenses are saved to the browser's `localStorage`, so they persist even after the page is refreshed.
 - **Currency Conversion**: Enter the current exchange rate from USD to KZT to calculate the total expenses in your chosen currency.
 - **Responsive Design**: The page layout is responsive and works well on both desktop and mobile devices.
+- Custom categories available.
+- View total expenses and category breakdown.
+
 
 ## Installation
 
@@ -19,7 +22,7 @@ No installation is required. Simply download or clone the repository and open `i
    - Enter the date of the expense.
    - Input the amount spent.
    - Select the currency (USD or KZT).
-   - Choose a category (Food, Transport, Entertainment).
+   - Choose a category (Food, Transport, Entertainment and others).
    - Optionally, add a comment about the expense.
    - Click the "Add Expense" button to save the expense.
 
@@ -31,20 +34,6 @@ No installation is required. Simply download or clone the repository and open `i
    - Choose the currency (USD or KZT) to display the total expenses.
    - The total amount will be displayed below the expense list.
 
-## Example
-
-### Add Expense
-
-- **Date**: 2024-09-10
-- **Amount**: 100
-- **Currency**: USD
-- **Category**: Food
-- **Comment**: Groceries
-
-### Calculate Total
-
-- **Exchange Rate**: 1 USD = 480 KZT
-- **Display in KZT**: Total: ₸48,000
 
 ## Dependencies
 
